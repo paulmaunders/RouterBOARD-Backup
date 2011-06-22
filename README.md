@@ -2,7 +2,7 @@
 
 ## Overview
 
-A perl script to help archive RouterBoard backups to another server via scp. 
+A bash script to help archive RouterBoard backups to another server via scp. 
 
 ## Instructions
 
