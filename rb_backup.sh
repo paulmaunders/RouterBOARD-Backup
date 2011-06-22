@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Copyright (c) 2011 Fubra Limited
+# Copyright (c) 2011 Fubra Limited
 
 # Permission is hereby granted, free of charge, to any person obtaining a 
 # copy of this software and associated documentation files (the "Software"), 
