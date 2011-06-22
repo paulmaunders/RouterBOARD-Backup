@@ -7,6 +7,7 @@ A bash script to help archive RouterBoard backups to another server via scp.
 ## Instructions
 
 First, upload your backup server's public key to each RouterBOARD that you wish to backup. NB: You must use a DSA key, and we assume you already have access to the server in your current session.
+    
     scp id_dsa.pub admin@rb1.test.tld:
 
 Then, go to each router and run the following commands... (ensuring you change 1.1.1.1 to your backup server's IP)
