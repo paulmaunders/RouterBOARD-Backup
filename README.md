@@ -2,7 +2,7 @@
 
 ## Overview
 
-A bash script to help archive RouterBoard backups to another server via scp. 
+A bash script to help archive Mikrotik RouterBoard backups to another server via scp. 
 
 ## Instructions
 
