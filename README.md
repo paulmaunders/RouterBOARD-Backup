@@ -39,4 +39,7 @@ Try running rb_backup.sh. If you have any problems, try manually ssh'ing to each
 
     ssh backup@rb1.test.tld
 
-You may wish to install the rb_backup.sh script on the cron.
+You may wish to install the rb_backup.sh script on the cron. To do this you could create a new file called /etc/cron.d/rb_backup with the following contents (remember to change the path to your backup script):
+
+    # Backup Routerboards every morning at 7 a.m.
+    0 7 * * * root /path/to/rb_backup.sh
